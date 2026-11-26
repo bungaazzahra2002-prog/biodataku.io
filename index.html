@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Siti Fatimah Azzahra (Zahra)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-400 selection:text-slate-950">
+
+  <!-- Dekorasi Cahaya Latar -->
+  <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[520px] h-[520px] rounded-full bg-indigo-600/20 blur-3xl"></div>
+    <div class="absolute top-1/2 right-0 w-[380px] h-[380px] rounded-full bg-cyan-500/15 blur-3xl"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-20 backdrop-blur-md bg-slate-950/75 border-b border-slate-800/80">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-lg font-bold tracking-tight bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-cyan-300 bg-clip-text text-transparent">
+        Zahra.dev
+      </a>
+      <nav class="flex items-center gap-6 text-sm text-slate-300">
+        <a href="#tentang" class="hover:text-cyan-300 transition">Tentang</a>
+        <a href="#biodata" class="hover:text-cyan-300 transition">Biodata</a>
+        <a href="#proyek" class="hover:text-cyan-300 transition">Proyek</a>
+        <a href="#kontak" class="px-4 py-2 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 text-slate-950 font-semibold hover:opacity-90 transition">
+          Kontak
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section dengan Foto & Kata Perkenalan -->
+  <section id="tentang" class="max-w-5xl mx-auto px-6 pt-16 pb-20">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+
+      <!-- Teks Perkenalan -->
+      <div class="md:col-span-7 space-y-5">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-400/20">
+          Mahasiswi Universitas UICI · Batch 7
+        </span>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight">
+          Halo, saya
+          <span class="block bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-300 bg-clip-text text-transparent">
+            Siti Fatimah Azzahra
+          </span>
+        </h1>
+        <p class="text-sm font-medium text-cyan-300/90">
+          Biasa dipanggil <span class="underline decoration-cyan-400/60 underline-offset-4">Zahra</span> · Berdomisili di Bondowoso, Jawa Timur
+        </p>
+        <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+          Saya adalah mahasiswi Universitas UICI Batch 7 yang senang merangkai ide menjadi solusi digital yang rapi, fungsional, dan mudah dipakai. Bagi saya, teknologi yang baik bukan hanya berjalan lancar di balik layar, tetapi juga memberi pengalaman yang nyaman dan bernilai nyata bagi penggunanya.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#proyek" class="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-400 text-slate-950 font-bold shadow-lg shadow-cyan-500/20 hover:scale-[1.02] transition">
+            Lihat Karya Saya
+          </a>
+          <a href="#kontak" class="px-6 py-3 rounded-xl bg-slate-900 border border-slate-700 text-slate-200 font-semibold hover:border-cyan-400/60 transition">
+            Hubungi Zahra
+          </a>
+        </div>
+      </div>
+
+      <!-- Bingkai Foto Berwarna -->
+      <div class="md:col-span-5 flex justify-center">
+        <div class="relative group">
+          <div class="absolute -inset-1.5 rounded-3xl bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-cyan-400 blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+          <div class="relative w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden bg-slate-900 border-2 border-slate-800">
+            <img
+              src="FOTO_ZAHRA.jpeg"
+              alt="Foto profil Siti Fatimah Azzahra (Zahra)"
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bagian Biodata Singkat -->
+  <section id="biodata" class="max-w-5xl mx-auto px-6 py-14 border-t border-slate-800/70">
+    <div class="mb-8">
+      <h2 class="text-2xl sm:text-3xl font-bold">Biodata Singkat</h2>
+      <p class="text-slate-400 mt-1">Profil ringkas akademik, domisili, dan kanal komunikasi.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+        <p class="text-xs uppercase tracking-wider text-indigo-400 font-semibold">Nama Lengkap & Panggilan</p>
+        <p class="text-base font-semibold text-slate-100 mt-1">Siti Fatimah Azzahra (Zahra)</p>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+        <p class="text-xs uppercase tracking-wider text-purple-400 font-semibold">Pendidikan</p>
+        <p class="text-base font-semibold text-slate-100 mt-1">Mahasiswi Universitas UICI · Batch 7</p>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+        <p class="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Alamat Domisili</p>
+        <p class="text-base font-semibold text-slate-100 mt-1">Perumahan Kembang Permai Blok D-18, Bondowoso, Jawa Timur</p>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
+        <p class="text-xs uppercase tracking-wider text-fuchsia-400 font-semibold">Email & Media Sosial</p>
+        <p class="text-base font-semibold text-slate-100 mt-1">bungaazzahra2002@gmail.com · IG @azahrrraaa</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bagian Proyek -->
+  <section id="proyek" class="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800/70">
+    <div class="mb-10">
+      <h2 class="text-2xl sm:text-3xl font-bold">Proyek & Fokus Karya</h2>
+      <p class="text-slate-400 mt-2">Bidang pengembangan dan dokumentasi yang terus saya kembangkan.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <article class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-indigo-400/50 transition">
+        <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400">Web Application</span>
+        <h3 class="text-xl font-bold mt-2">Aplikasi Kasir & Inventaris</h3>
+        <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+          Membangun antarmuka web responsif dan alur pencatatan stok maupun transaksi yang praktis serta terstruktur.
+        </p>
+      </article>
+
+      <article class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-purple-400/50 transition">
+        <span class="text-xs font-semibold uppercase tracking-wider text-purple-400">Information System</span>
+        <h3 class="text-xl font-bold mt-2">Sistem Informasi & Pelaporan</h3>
+        <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+          Merancang sistem data, autentikasi akses, dan rekap laporan otomatis untuk kebutuhan operasional harian.
+        </p>
+      </article>
+
+      <article class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-cyan-400/50 transition">
+        <span class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Analysis & Docs</span>
+        <h3 class="text-xl font-bold mt-2">Analisis Sistem & Riset</h3>
+        <p class="text-slate-400 text-sm mt-2 leading-relaxed">
+          Menyusun dokumentasi alur proses, spesifikasi kebutuhan sistem, serta catatan studi dan observasi terstruktur.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Bagian Kontak & Footer -->
+  <footer id="kontak" class="max-w-5xl mx-auto px-6 py-14 border-t border-slate-800/70 text-center">
+    <h2 class="text-2xl font-bold">Mari Terhubung dengan Zahra</h2>
+    <p class="text-slate-400 mt-2 max-w-lg mx-auto">
+      Terbuka untuk diskusi akademik, kolaborasi proyek, maupun silaturahmi. Silakan hubungi saya lewat email atau Instagram.
+    </p>
+    <p class="text-xs text-slate-400 mt-3">
+      Perumahan Kembang Permai Blok D-18, Bondowoso, Jawa Timur
+    </p>
+    <div class="mt-6 flex flex-wrap justify-center gap-4">
+      <a href="mailto:bungaazzahra2002@gmail.com" class="px-5 py-2.5 rounded-xl bg-cyan-400 text-slate-950 font-semibold hover:bg-cyan-300 transition">
+        Email: bungaazzahra2002@gmail.com
+      </a>
+      <a href="https://instagram.com/azahrrraaa" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-fuchsia-500 text-white font-semibold hover:opacity-90 transition">
+        Instagram @azahrrraaa
+      </a>
+    </div>
+    <p class="text-xs text-slate-500 mt-10">© 2026 Siti Fatimah Azzahra (Zahra) · Universitas UICI Batch 7</p>
+  </footer>
+
+</body>
+</html>
